@@ -11,6 +11,7 @@ dest_format = "jpeg"
 
 
 for img in os.listdir(img_src):
+    
     img_path = os.path.join(img_src, img)
     img_base_name = img.split(".")[0]  
     
