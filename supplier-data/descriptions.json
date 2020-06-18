@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Apples",
+    "weight": 100,
+    "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Tech technology companies, alongside Amazon, Google, Microsoft and Facebook. Wikipedia",
+    "image_name": "001.jpeg"
+  },
+  {
+    "name": "Mango",
+    "weight": 400,
+    "description": "Punto Fa, S.L., trading as Mango, is a Spanish clothing design and manufacturing company, founded in Barcelona, by brothers Isak Andic and Nahman Andic. Wikipedia",
+    "image_name": "002.jpeg"
+  },
+  {
+    "name": "Pineapple",
+    "weight": 900,
+    "description": "The pineapple is a tropical plant with an edible fruit and the most economically significant plant in the family Bromeliaceae. The pineapple is indigenous to South America, where it has been cultivated for many centuries. Wikipedia",
+    "image_name": "003.jpeg"
+  },
+  {
+    "name": "Cherry",
+    "weight": 250,
+    "description": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour",
+    "image_name": "004.jpeg"
+  }
+]

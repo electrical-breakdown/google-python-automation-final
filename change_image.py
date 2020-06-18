@@ -11,8 +11,9 @@ def process_images():
 
     img_src = os.path.abspath(".\\supplier-data\\images")
     img_dest = os.path.abspath(".\\supplier-data\\images")
-    dest_size = 600,400
+    dest_size = 200,200
     dest_format = "jpeg"
+    dest_extension = ".jpeg"
 
 
     for img in os.listdir(img_src):
@@ -26,7 +27,11 @@ def process_images():
             #create the image object and apply the specfied conversions
             im = Image.open(file)
             im.convert("RGB")
-            im.resize((dest_size)).im.save(os.path.join(img_dest, img_base_name) + ".jpeg", format=dest_format)
+
+            resized_image = im.resize((dest_size))
+
+            #save in the same location, add jpeg as the file extension, and specify the file format
+            resized_image.save(os.path.join(img_dest, img_base_name) + dest_extension, format=dest_format)
 
 
 process_images()
