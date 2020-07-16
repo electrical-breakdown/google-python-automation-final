@@ -5,7 +5,7 @@ import os
 
 def process_images():
 
-    """Converts a set of images according to the given parameters and saves them in the same folder as new files"""
+    """Converts a set of images according to the given parameters and saves them as new files in the same folder as the original files"""
 
     #set the source and destination folders, as well as the attributes we want for the file conversoin
 
